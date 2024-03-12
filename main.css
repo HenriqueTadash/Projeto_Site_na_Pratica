@@ -5,7 +5,14 @@
 }
 
 .container img{ 
-    display: flex;
     width: 150px;
+}
+
+h2 { 
+    font-family: "Caesar Dressing", system-ui;
+}
+
+h1 {
+    font-family: "Alkatra", system-ui;
 }
 
