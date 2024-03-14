@@ -4,15 +4,49 @@
     box-sizing: border-box;
 }
 
-.container img{ 
-    width: 150px;
-}
-
 h2 { 
     font-family: "Caesar Dressing", system-ui;
 }
 
 h1 {
     font-family: "Alkatra", system-ui;
+}
+
+.cabeçalho { 
+    padding: 16px 0;
+    background-color:#0d00ff;
+    color: white;
+}
+
+.cabeçalho nav li { 
+    display: inline;
+    margin-left: 16px;
+}
+
+.cabeçalho nav li a { 
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.container { 
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img { 
+    height: 24px;
+}
+
+.social-links li { 
+    display: inline;
 }
 
