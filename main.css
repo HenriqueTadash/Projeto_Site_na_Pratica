@@ -1,0 +1,172 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alkatra", system-ui;
+}
+
+h2 { 
+    font-family: "Caesar Dressing", system-ui;
+}
+
+.cabeçalho { 
+    padding: 16px 0;
+    background-color:#0d00ff;
+    color: white;
+}
+
+.cabeçalho nav li { 
+    display: inline;
+    margin-left: 16px;
+}
+
+.cabeçalho nav li a { 
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container { 
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container1 img {
+    margin-right: 5px;
+}
+
+header .container, 
+section .container1 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container1 {
+    margin-top: 150px;
+}
+
+.creation-date { 
+    margin-left: 250px;
+}
+
+.social-links img { 
+    height: 24px;
+}
+
+.social-links li { 
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section { padding: 24px 0;}
+
+section h2 { margin-bottom: 16px;}
+
+section p { margin-bottom: 8px;}
+
+.foto-logo { margin-bottom: 3px;}
+
+section .articles { 
+    justify-content: space-between;
+    display: flex;
+}
+
+#contact .container {
+    display: block;
+}
+.contact-methods { 
+    display: flex;
+    margin: 0 60px 60px;
+    justify-content: space-between;
+}
+
+section .container2 img,
+section .container2a img {
+    width: 380px;
+    height: 280px;
+    margin: 0 20px;
+}
+
+section .container2 h2,  
+section .container2a h2 {
+    font-size: 30px;
+    height: 60px;
+}
+
+section .container2 p, 
+section .container2 a,
+section .container2 h3,
+section .container2a p, 
+section .container2a a,
+section .container2a h3  {
+    width: 380px;
+    margin: 0 20px;
+}
+
+.container2 { 
+    margin-top: 100px;
+}
+
+section .container3 header { 
+    margin-left: 170px;
+}
+
+section .container3 h3 { 
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+section .container3 h2 { 
+    margin-top: 50px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin: 8px 20px;
+    padding: 8px;
+}
+
+form textarea { 
+    resize: none;
+    height: 180px;
+}
+
+form button { 
+    background-color: #0d00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover { 
+    background-color: #4d46ca;
+}
+
+.articles article a {
+    background-color: red;
+    color: white;
+    padding: 6px;
+}
+
+footer { 
+    background-color: #0d00ff;
+    color: white;
+    padding: 16px o;
+}
+
+footer p { 
+    margin: 0 510px;
+}
+
+.venha {
+    margin-right: 90px;
+}
